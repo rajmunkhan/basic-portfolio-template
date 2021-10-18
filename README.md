@@ -8,18 +8,18 @@
 
 <a href="https://github.com/rajmunkhan/basic-portfolio-template/"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=yellow"></a>
 <a href="https://github.com/ashutoshkrris/"><img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?v=103"></a>
-<a href="https://github.com/rajmunkhan/basic-portfolio-template/"><img src="https://img.shields.io/github/repo-size/ashutoshkrris/Random-APIs.svg?label=Repo%20size&style=flat"></a>
-<a href="https://github.com/rajmunkhan/basic-portfolio-template/"><img src="https://img.shields.io/tokei/lines/github/ashutoshkrris/Random-APIs?color=yellow&label=Lines%20of%20Code"></a>
+<a href="https://github.com/rajmunkhan/basic-portfolio-template/"><img src="https://img.shields.io/github/repo-size/rajmunkhan/basic-portfolio-template.svg?label=Repo%20size&style=flat"></a>
+<a href="https://github.com/rajmunkhan/basic-portfolio-template/"><img src="https://img.shields.io/tokei/lines/github/rajmunkhan/basic-portfolio-template?color=yellow&label=Lines%20of%20Code"></a>
 
-<a href="https://github.com/rajmunkhan/basic-portfolio-template//watchers"><img src="https://img.shields.io/github/watchers/ashutoshkrris/Random-APIs"></a>
+<a href="https://github.com/rajmunkhan/basic-portfolio-template//watchers"><img src="https://img.shields.io/github/watchers/rajmunkhan/basic-portfolio-template"></a>
   
-<a href="https://github.com/rajmunkhan/basic-portfolio-template//graphs/contributors"><img src="https://img.shields.io/github/contributors/ashutoshkrris/Random-APIs?color=brightgreen"></a>
-<a href="https://github.com/rajmunkhan/basic-portfolio-template//stargazers"><img src="https://img.shields.io/github/stars/ashutoshkrris/Random-APIs?color=0059b3"></a>
-<a href="https://github.com/rajmunkhan/basic-portfolio-template//network/members"><img src="https://img.shields.io/github/forks/ashutoshkrris/Random-APIs?color=yellow"></a>
-<a href="https://github.com/rajmunkhan/basic-portfolio-template//issues"><img src="https://img.shields.io/github/issues/ashutoshkrris/Random-APIs?color=brightgreen"></a>
-<a href="https://github.com/rajmunkhan/basic-portfolio-template//issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed-raw/ashutoshkrris/Random-APIs?color=0059b3"></a>
-<a href="https://github.com/rajmunkhan/basic-portfolio-template//pulls"><img src="https://img.shields.io/github/issues-pr/ashutoshkrris/Random-APIs?color=yellow"></a>
-<a href="https://github.com/rajmunkhan/basic-portfolio-template//pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/ashutoshkrris/Random-APIs?color=brightgreen"></a> 
+<a href="https://github.com/rajmunkhan/basic-portfolio-template//graphs/contributors"><img src="https://img.shields.io/github/contributors/rajmunkhan/basic-portfolio-template?color=brightgreen"></a>
+<a href="https://github.com/rajmunkhan/basic-portfolio-template//stargazers"><img src="https://img.shields.io/github/stars/rajmunkhan/basic-portfolio-template?color=0059b3"></a>
+<a href="https://github.com/rajmunkhan/basic-portfolio-template//network/members"><img src="https://img.shields.io/github/forks/rajmunkhan/basic-portfolio-template?color=yellow"></a>
+<a href="https://github.com/rajmunkhan/basic-portfolio-template//issues"><img src="https://img.shields.io/github/issues/rajmunkhan/basic-portfolio-template?color=brightgreen"></a>
+<a href="https://github.com/rajmunkhan/basic-portfolio-template//issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed-raw/rajmunkhan/basic-portfolio-template?color=0059b3"></a>
+<a href="https://github.com/rajmunkhan/basic-portfolio-template//pulls"><img src="https://img.shields.io/github/issues-pr/rajmunkhan/basic-portfolio-template?color=yellow"></a>
+<a href="https://github.com/rajmunkhan/basic-portfolio-template//pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/rajmunkhan/basic-portfolio-template?color=brightgreen"></a> 
 </div>
 
 This repository is used to provide the free portfolio template
