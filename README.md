@@ -48,3 +48,13 @@ Here, we have mentioned the instructions to set up git. If you don't already kno
         - `git config --global user.name "Your name"`
         - `git config --global user.email "Your email address"` 
  - Optionally, you can [setup ssh keys](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) to authenticate easily. 
+
+# How to contribute?
+
+We ♥ Contributors!
+
+You can solve issues or code an implementation of bubble sort in an language that isn't already implemented in the repository yet.
+
+To ensure your contributions count,  I implore you to follow the instructions mentioned in the [CONTRIBUTING.md](https://github.com/rajmunkhan/basic-portfolio-template/blob/master/CONTRIBUTING.md)  
+
+Happy Submissions
