@@ -53,7 +53,7 @@ Here, we have mentioned the instructions to set up git. If you don't already kno
 
 We ♥ Contributors!
 
-You can solve issues or code an implementation of bubble sort in an language that isn't already implemented in the repository yet.
+You can solve issues or create issues to enhance the look of this template.
 
 To ensure your contributions count,  I implore you to follow the instructions mentioned in the [CONTRIBUTING.md](https://github.com/rajmunkhan/basic-portfolio-template/blob/master/CONTRIBUTING.md)  
 
