@@ -1,6 +1,6 @@
 .pre-loader {
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
     background-color: #F9FBFF;
     z-index: 1000;
     position: fixed;
@@ -22,9 +22,10 @@
             transform: rotateX(60deg) rotateZ(45deg) rotateY(0deg) translateZ(0px);
     position: absolute;
     top: 50vh;
+    right: 50vw;
     left: 50vw;
     margin-top: calc(var(--size) * -3);
-    margin-left: calc(var(--size) * -3);
+    margin-left: calc(var(--size) * -1.5);
     z-index: 100;
   }
   
