@@ -85,10 +85,9 @@ header h2{
 .underText{
     color: rgb(8, 3, 3);
     background-color:#ffa500;
-    margin-top:15px;
-    font-size: 12px;
+    font-size: 16px;
     padding: 10px;
-    border-radius: 30px;
+    
 }
 .about-me{
     display: flex;
