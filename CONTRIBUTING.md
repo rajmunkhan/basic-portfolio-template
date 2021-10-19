@@ -3,13 +3,17 @@
 
 If you want to contribute to this project, follow the steps below.
 
+<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork this repository" />
 
 ## Fork this repository
 
 Fork this repository by clicking on the fork button on the top of this page.
 This will create a copy of this repository in your account.
 
+
 ## Clone the repository
+
+<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/copy-to-clipboard.png" alt="copy URL to clipboard" />
 
 Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the _copy to clipboard_ icon.
 
@@ -54,5 +58,6 @@ If you go to your repository on GitHub, you'll see a `Compare & pull request` bu
 
 Add Title and description related to the issue that you have solved or changes you have made. Now submit the pull request.
 
+<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" alt="create a pull request" />
 
 **Congrats! You just made your first pull request and contributed to the project**
