@@ -117,6 +117,7 @@ header h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap:wrap;
 }
 .card{
     /* background-color: rgb(0, 143, 143,0.1); */
