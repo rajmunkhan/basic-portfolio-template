@@ -58,3 +58,5 @@ You can solve issues or create issues to enhance the look of this template.
 To ensure your contributions count,  I implore you to follow the instructions mentioned in the [CONTRIBUTING.md](https://github.com/rajmunkhan/basic-portfolio-template/blob/master/CONTRIBUTING.md)  
 
 Happy Submissions
+
+All the Best!!
