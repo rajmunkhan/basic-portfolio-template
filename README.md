@@ -60,3 +60,14 @@ To ensure your contributions count,  I implore you to follow the instructions me
 Happy Submissions
 
 All the Best!!
+
+# Project Maintainer
+
+![](https://avatars.githubusercontent.com/u/83774177?s=80&v=4)
+<br>[Rajmun Khan](https://github.com/rajmunkhan "View Profile")<br>
+
+# Project Contributors
+
+<a href="https://github.com/rajmunkhan/basic-portfolio-template/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=rajmunkhan/basic-portfolio-template" />
+</a>
