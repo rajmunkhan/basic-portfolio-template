@@ -12,6 +12,10 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color:  white;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .logo{
     text-transform: uppercase;font-weight: bold;font-size: 35px;
