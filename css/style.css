@@ -273,3 +273,18 @@ header h2{
 .skill{
     color: white;
 }
+
+
+/*Mobile Screen*/
+@media screen and (max-width:768px){
+    .education-box{
+        padding: 10px;
+        flex-direction: column;
+    }
+    .vertical {
+        border-left: 0;
+        height:auto;
+        border-top: 3px solid black;
+        width: 70%;
+    }
+}
