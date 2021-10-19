@@ -19,7 +19,7 @@ nav{
     position: fixed;
     top: 0;
     width: 100vw;
-	z-index:1;
+    z-index:1;
 }
 
 .nav-left{
@@ -29,9 +29,9 @@ nav{
 
 .nav-right {
     padding: 0px;
-  }
-  
- .nav-right a {
+}
+
+.nav-right a {
     font-weight: bold;
     font-size: 14px;
     text-transform: uppercase;
@@ -42,9 +42,9 @@ nav{
     display: inline-block;
     position: relative;
     opacity: 0.75;
-  }
-  
-  
+}
+
+
 
 
 
@@ -58,14 +58,33 @@ nav ul{
     text-transform: uppercase;
 
 }
+
 li a{
     margin: 20px;
     color: #132945;
     text-decoration: none;
+    transition: color 100ms ease;
 }
+
+li a::after{
+    content: '';
+    width: 0;
+    height: 1px;
+    display: block;
+    background: black;
+    transition: 100ms;
+}
+
 li a:hover{
     font-weight: bold;
+    color: #0a111c;
+    transition: color 100ms ease;
 }
+
+li a:hover::after{
+    width: 100%;
+}
+
 header{
     background-image: url('../img/bg.jpg');
     background-size: cover;
@@ -74,7 +93,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+
 }
 
 header h2{
@@ -210,7 +229,7 @@ header h2{
     border-radius: 8px;
     box-shadow: 0px 2px 10px 2px #132945;
     margin: 30px;
-	display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -222,7 +241,7 @@ header h2{
     height: 140px;
     position:flex;
     left: 50%;
-          }
+}
 .skills{
     padding: 2rem;
     display: flex;
