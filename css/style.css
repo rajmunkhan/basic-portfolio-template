@@ -16,7 +16,6 @@ nav{
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 999;
 }
 
 .nav-left{
@@ -244,7 +243,19 @@ header h2{
     border-radius: 8px;
     box-shadow: 0px 2px 10px 2px #132945;
     margin: 30px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.column{
+    float:left;
+}
+.vertical {
+    border-left: 3px solid black;
+    height: 140px;
+    position:flex;
+    left: 50%;
+          }
 .skills{
     display: flex;
     justify-content: center;
