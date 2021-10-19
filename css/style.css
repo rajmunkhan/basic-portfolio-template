@@ -56,6 +56,7 @@ header h2{
 }
 .about-me{
     display: flex;
+    padding: 2rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -96,7 +97,8 @@ header h2{
     flex-direction: column;
     background-color: #132945;
     color: white;
-    padding: 20px;
+    padding: 2rem;
+
 }
 .projects h2{
     font-size: 50px;
@@ -150,6 +152,7 @@ header h2{
     color: #88bafc;
 }
 .education{
+    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,6 +180,7 @@ header h2{
     margin: 30px;
 }
 .skills{
+    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
