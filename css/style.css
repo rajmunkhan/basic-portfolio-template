@@ -5,6 +5,8 @@
 }
 html{
     scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 nav{
     font-family: 'Source Sans Pro', sans-serif;
@@ -17,6 +19,7 @@ nav{
     position: fixed;
     top: 0;
     width: 100vw;
+	z-index:1;
 }
 
 .nav-left{
@@ -84,6 +87,7 @@ header h2{
 }
 .about-me{
     display: flex;
+    padding: 2rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -124,7 +128,8 @@ header h2{
     flex-direction: column;
     background-color: #132945;
     color: white;
-    padding: 20px;
+    padding: 2rem;
+
 }
 .projects h2{
     font-size: 50px;
@@ -145,6 +150,7 @@ header h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap:wrap;
 }
 .card{
     /* background-color: rgb(0, 143, 143,0.1); */
@@ -178,6 +184,7 @@ header h2{
     color: #88bafc;
 }
 .education{
+    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -217,6 +224,7 @@ header h2{
     left: 50%;
           }
 .skills{
+    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
