@@ -220,3 +220,72 @@ header h2{
 .skill{
     color: white;
 }
+
+/* The Footer Section */
+
+footer {
+	background: #111;
+	color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color:  white;
+    position:sticky;
+    bottom: 0;
+    width: 102%;
+    height: 45px;
+}
+footer span .social{
+    
+    align-items: center;
+    display: flex;
+    justify-content:center;
+}
+footer span a {
+	color: #132945;
+	text-decoration: none;
+    padding: 5px;
+}
+footer span a:hover {
+	text-decoration: none;
+}
+footer span .social a {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	padding-top: 0.3cm;
+	background: #132945;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 50%;
+	transition: 0.5s;
+}
+footer span .social a .fa {
+	line-height: 46px;
+}
+footer span .social a:nth-child(1):hover {
+	color: #26a4f2;
+	box-shadow: 0 0 15px #1da1f2;
+	text-shadow: 0 0 15px #1da1f2;
+}
+footer span .social a:nth-child(2):hover {
+	color: #e23670;
+	box-shadow: 0 0 15px #e1306c;
+	text-shadow: 0 0 15px #e1306c;
+}
+footer span .social a:nth-child(3):hover {
+	color: #2a6cbb;
+	box-shadow: 0 0 15px #2867b2;
+	text-shadow: 0 0 15px #2867b2;
+}
+footer span .social a:nth-child(4):hover {
+	color: #fff;
+	box-shadow: 0 0 15px #fff;
+	text-shadow: 0 0 15px #fff;
+}
+footer span .social a:nth-child(5):hover {
+	color:cyan;
+	box-shadow: 0 0 15px cyan;
+	text-shadow: 0 0 15px cyan;
+}
