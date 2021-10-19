@@ -4,6 +4,8 @@
 }
 html{
     scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 nav{
     font-family: 'Source Sans Pro', sans-serif;
