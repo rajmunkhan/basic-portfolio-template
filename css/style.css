@@ -31,7 +31,7 @@ li a:hover{
     font-weight: bold;
 }
 header{
-    background-image: url('bg.jpg');
+    background-image: url('../img/bg.jpg');
     background-size: cover;
     height: 100vh;
     display: flex;
