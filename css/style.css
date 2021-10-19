@@ -16,6 +16,7 @@ nav{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 999;
 }
 .logo{
     text-transform: uppercase;font-weight: bold;font-size: 35px;
