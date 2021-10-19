@@ -7,15 +7,84 @@ html{
 }
 nav{
     font-family: 'Source Sans Pro', sans-serif;
-    margin: 0;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.nav-left{
+    padding: 10px;
+}
+
+/*nav-right*/
+
+.nav-right {
+    padding: 0px;
+  }
+  
+ .nav-right a {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #031D44;
+    padding: 20px 0px;
+    margin: 0px 20px;
+    display: inline-block;
+    position: relative;
+    opacity: 0.75;
+  }
+  
+  a:hover {
+    opacity: 1;
+  }
+  
+  a::before {
+    transition: 300ms;
+    height: 5px;
+    content: "";
+    position: absolute;
+    background-color: #031D44;
+  }
+  
+  a::before {
+    width: 0%;
+    bottom: 10px;
+  }
+  
+  a:hover::before {
+    width: 100%;
+  }
+  
+  a::before {
+    width: 100%;
+    bottom: 5px;
+    opacity: 0;
+  }
+  
+  a:hover::before {
+    bottom: 10px;
+    opacity: 1;
+  }
+  
+ a::before {
+    height: 0%;
+    width: 100%;
+    bottom: 0px;
+  }
+  
+  a::before {
+    height: 5px;
+  }
+
+
+
 .logo{
     text-transform: uppercase;font-weight: bold;font-size: 35px;
 }
+
 nav ul{
     list-style: none;
     display: flex;
