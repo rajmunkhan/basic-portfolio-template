@@ -44,8 +44,9 @@ nav{
     opacity: 0.75;
   }
   
+ 
+ 
   
-
 
 
 .logo{
@@ -65,6 +66,18 @@ li a{
 }
 li a:hover{
     font-weight: bold;
+}
+nav li{
+    background-color: rgb(255, 254, 253);
+    border: 5px solid rgb(10, 25, 68);
+    margin: 15px;
+    border-radius: 2rem;
+}
+li:hover{
+    background-color: rgb(255, 254, 253);
+    border: 5px solid rgb(141, 119, 23);
+    margin: 15px;
+    border-radius: 0.5rem;
 }
 header{
     background-image: url('../img/bg.jpg');
