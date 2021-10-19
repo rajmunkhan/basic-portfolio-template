@@ -58,6 +58,6 @@ If you go to your repository on GitHub, you'll see a `Compare & pull request` bu
 
 Add Title and description related to the issue that you have solved or changes you have made. Now submit the pull request.
 
-<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" alt="create a pull request" />
+<img align="right width ="300" src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" alt="create a pull request" />
 
 **Congrats! You just made your first pull request and contributed to the project**
