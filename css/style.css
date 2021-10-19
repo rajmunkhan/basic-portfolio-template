@@ -53,6 +53,12 @@ header h2{
 .underText{
     color: white;
 }
+
+#about-me {
+    margin-top: 19px;
+    padding: 0px 3px 18px 0px;
+}
+
 .about-me{
     display: flex;
     justify-content: center;
@@ -98,6 +104,7 @@ header h2{
     padding: 20px;
 }
 .projects h2{
+    padding: 1px 0px 9px;
     font-size: 50px;
     position: relative;
     font-family: 'Source Sans Pro', sans-serif;
@@ -126,7 +133,7 @@ header h2{
     font-family: 'Source Sans Pro', sans-serif;
     border-radius: 8px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     min-height: 300px;
@@ -157,6 +164,7 @@ header h2{
 }
 
 .education h2{
+    padding-top: 14px;
     font-size: 50px;
     position: relative;
 }
@@ -185,6 +193,7 @@ header h2{
     padding: 20px;
 }
 .skills h2{
+    padding-bottom: 5px;
     font-size: 50px;
     position: relative;
     font-family: 'Source Sans Pro', sans-serif;
