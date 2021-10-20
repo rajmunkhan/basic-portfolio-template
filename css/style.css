@@ -52,7 +52,23 @@ html{
     font-size: 14px;
     padding: 1rem;
     opacity: 0.75;
+    
+    transition: 0.3s; /*new addded*/
 }
+
+/* NAVBAR HOVER EFFECT STARTS HERE */
+.navbar-links li a:hover{
+    color: #030118;
+    font-weight: bolder;
+    font-size: 16.5px;
+    border-left: 1px solid #327ce4c5;
+    border-right: 1px solid #327ce4c5;
+    border-radius: 2px;
+    background-color: #6ea5f137;
+}
+
+/* NAVBAR HOVER EFFECT END HERE */
+
 .toggle-button {
     position: absolute;
     top: 20px;
