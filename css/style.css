@@ -139,6 +139,13 @@ header h2{
     /* flex-wrap: wrap; */
 }
 
+@media screen and (max-width: 1000px){
+    div.about-img{
+        /* padding: 0; */
+        margin: auto;
+    }
+}
+
 .about-me h2{
     font-size: 50px;
     position: relative;
