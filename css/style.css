@@ -138,13 +138,45 @@ header h2{
     font-family: 'Source Sans Pro', sans-serif;
     /* flex-wrap: wrap; */
 }
-
-@media screen and (max-width: 1000px){
+/* --------ABOUT ME RESPONSIVE START-------------- */
+@media screen and (max-width: 1200px){
     div.about-img{
         /* padding: 0; */
-        margin: auto;
+        margin: 0;
     }
 }
+@media screen and (max-width: 806px){
+    #about-me{
+        padding: 0;
+    }
+    div.about-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 3px solid purple; */
+    }
+    
+}
+@media screen and (max-width: 500px){
+    div.about-img{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .about-img > img{
+        max-width: 250px;
+    }
+}
+@media screen and (max-width: 400px){
+    div.about-img{
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 0;
+    }
+    .about-img > img{
+        max-width: 150px;
+    }
+}
+/* ----------ABOUT ME RESPONSIVE END----------- */
 
 .about-me h2{
     font-size: 50px;
