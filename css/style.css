@@ -238,7 +238,7 @@ header h2{
 
 .education h2{
     font-size: 50px;
-    position: relative;
+    position: left;
 }
 .education h2::before{
     content: "";
@@ -328,3 +328,11 @@ header h2{
         width: 70%;
     }
 }
+.education-subsection{
+    padding: 2rem;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
