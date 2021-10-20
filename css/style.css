@@ -131,7 +131,7 @@ header h2{
 }
 .about-me{
     display: flex;
-    padding: 2rem;
+    padding: 4rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -241,7 +241,7 @@ header h2{
     flex-direction: column;
     background-color: #132945;
     color: white;
-    padding: 2rem;
+    padding: 4rem;
 
 }
 .projects h2{
@@ -297,7 +297,7 @@ header h2{
     color: #88bafc;
 }
 .education{
-    padding: 2rem;
+    padding: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -337,7 +337,7 @@ header h2{
     left: 50%;
           }
 .skills{
-    padding: 2rem;
+    padding: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
