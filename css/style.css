@@ -163,7 +163,7 @@ header h2{
         padding-left: 0;
     }
     .about-img > img{
-        max-width: 250px;
+        max-width: 200px;
     }
 }
 @media screen and (max-width: 400px){
@@ -173,7 +173,7 @@ header h2{
         padding-top: 0;
     }
     .about-img > img{
-        max-width: 150px;
+        max-width: 100px;
     }
 }
 /* ----------ABOUT ME RESPONSIVE END----------- */
