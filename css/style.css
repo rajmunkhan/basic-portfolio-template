@@ -238,7 +238,7 @@ header h2{
 
 .education h2{
     font-size: 50px;
-    position: left;
+    position: relative;
 }
 .education h2::before{
     content: "";
