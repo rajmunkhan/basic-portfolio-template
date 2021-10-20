@@ -216,6 +216,16 @@ header h2{
     } */
 }
 @media screen and (max-width: 430px){
+    body{
+        overflow: hidden;
+    }
+    #about-me{
+        margin: 0;
+        padding: 0;
+    }
+    div.about-box{
+        margin: 10px;
+    }
     div.about-img > img{
         display: block;
         width: 200px;
