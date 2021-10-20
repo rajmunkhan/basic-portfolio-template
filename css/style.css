@@ -328,3 +328,11 @@ header h2{
         width: 70%;
     }
 }
+.education-subsection{
+    padding: 2rem;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
