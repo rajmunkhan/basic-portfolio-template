@@ -190,6 +190,39 @@ header h2{
     flex: 1;  
 }
 
+@media screen and (max-width: 1200px){
+    div.about-img{
+        margin: 0;
+    }
+}
+@media screen and (max-width: 1100px){
+    div.about-img{
+        display: flex;
+        justify-content: center;
+    }
+    /* .about-box{
+        min-width: 400px;
+    } */
+}
+@media screen and (max-width: 600px){
+    div.about-img{
+        padding: 0;
+    }
+    /* .about-box{
+        width: auto;
+    }
+    div.about-img > img{
+        width: 200px;
+    } */
+}
+@media screen and (max-width: 430px){
+    div.about-img > img{
+        display: block;
+        width: 200px;
+    }
+}
+
+
 .projects{
     display: flex;
     justify-content: center;
