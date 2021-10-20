@@ -1,3 +1,5 @@
+<h1 align="center"><em>Note: Claim Issues before making an PR</em></h1>
+
 <p align="center">
     <h1>Portfolio Template</h1>
 </p>

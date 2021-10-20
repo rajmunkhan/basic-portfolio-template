@@ -8,82 +8,103 @@ html{
     max-width: 100%;
     overflow-x: hidden;
 }
-nav{
-    font-family: 'Source Sans Pro', sans-serif;
-    margin: 0px;
-    padding: 0px;
+
+/* NAVBAR STYLING BEGINS HERE */
+.navbar {
     display: flex;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
     justify-content: space-between;
     align-items: center;
-    background-color:  white;
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    z-index:1;
+    background-color:white;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-.nav-left{
-    padding: 10px;
-}
-
-
-.nav-right {
-    padding: 0px;
-}
-
-.nav-right a {
-    font-weight: bold;
-    font-size: 14px;
+.brand-title {
+    font-size: 35px;
     text-transform: uppercase;
+    font-weight: bold;
+    margin: 0.5rem;
+}
+  
+.navbar-links {
+    height: 100%;
+}
+  
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+  
+.navbar-links li {
+    list-style: none;
+}
+  
+.navbar-links li a {
+    display: block;
     text-decoration: none;
-    color: #031D44;
-    padding: 20px 0px;
-    margin: 0px 20px;
-    display: inline-block;
-    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #132945;
+    font-size: 14px;
+    padding: 1rem;
     opacity: 0.75;
 }
-
-
-
-
-
-.logo{
-    text-transform: uppercase;font-weight: bold;font-size: 35px;
+.toggle-button {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
 }
-
-nav ul{
-    list-style: none;
-    display: flex;
-    text-transform: uppercase;
-
-}
-
-li a{
-    margin: 20px;
-    color: #132945;
-    text-decoration: none;
-    transition: color 100ms ease;
-}
-
-li a::after{
-    content: '';
-    width: 0;
-    height: 1px;
-    display: block;
-    background: black;
-    transition: 100ms;
-}
-
-li a:hover{
-    font-weight: bold;
-    color: #0a111c;
-    transition: color 100ms ease;
-}
-
-li a:hover::after{
+  
+.toggle-button .bar {
+    height: 3px;
     width: 100%;
+    background-color: #031D44;
+    border-radius: 10px;
 }
+  
+@media (max-width: 800px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .toggle-button {
+      display: flex;
+    }
+  
+    .navbar-links {
+      display: none;
+      width: 100%;
+    }
+  
+    .navbar-links ul {
+      width: 100%;
+      flex-direction: column;
+    }
+  
+    .navbar-links ul li {
+      text-align: center;
+    }
+  
+    .navbar-links ul li a {
+      padding: 0.5rem 1rem;
+    }
+  
+    .navbar-links.active {
+      display: flex;
+    }
+}
+/* NAVBAR STYLING ENDS HERE */
 
 header{
     background-image: url('../img/bg.jpg');
@@ -93,7 +114,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
+    
 }
 
 header h2{
@@ -103,6 +124,10 @@ header h2{
 }
 .underText{
     color: white;
+    margin-top:38px;
+    font-size: 16px;
+    padding: 10px;
+    
 }
 .about-me{
     display: flex;
@@ -111,6 +136,7 @@ header h2{
     align-items: center;
     flex-direction: column;
     font-family: 'Source Sans Pro', sans-serif;
+    /* flex-wrap: wrap; */
 }
 
 .about-me h2{
@@ -134,12 +160,36 @@ header h2{
         width: 100%;
     }
 }
+
+.about-contents{
+    display: flex;
+    /* padding: 2rem; */
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    max-height: fit-content;
+
+}
+
 .about-box{
     padding: 50px;
+    text-indent: 50px;
     border-radius: 8px;
     box-shadow: 0px 2px 10px 2px #132945;
     margin: 30px;
+    flex: 1;
+    font-size: large;
+    color:rgb(56, 55, 55);
+
 }
+
+.about-img{
+    padding: 50px;
+    margin-left: 10rem;
+    flex: 1;  
+}
+
 .projects{
     display: flex;
     justify-content: center;
@@ -229,7 +279,7 @@ header h2{
     border-radius: 8px;
     box-shadow: 0px 2px 10px 2px #132945;
     margin: 30px;
-    display: flex;
+	display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -241,7 +291,7 @@ header h2{
     height: 140px;
     position:flex;
     left: 50%;
-}
+          }
 .skills{
     padding: 2rem;
     display: flex;
@@ -303,3 +353,11 @@ header h2{
         width: 70%;
     }
 }
+.education-subsection{
+    padding: 2rem;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
