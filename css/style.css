@@ -222,6 +222,7 @@ header h2{
     #about-me{
         margin: 0;
         padding: 0;
+	padding-bottom: 10px;
     }
     div.about-box{
         margin: 10px;
