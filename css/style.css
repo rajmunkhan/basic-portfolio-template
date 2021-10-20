@@ -162,8 +162,9 @@ header h2{
 }
 
 .about-contents{
+    /* margin-top: 100px; */
     display: flex;
-    /* padding: 2rem; */
+    padding-top: 3rem;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
@@ -214,6 +215,7 @@ header h2{
 }
 .projects-div{
     display: flex;
+    padding-top: 3rem;
     justify-content: center;
     align-items: center;
     flex-wrap:wrap;
