@@ -8,28 +8,6 @@ html{
     max-width: 100%;
     overflow-x: hidden;
 }
-/* SCROLL BAR  */
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #132945;
-    border-radius: 10px;
-    border: 2px solid rgba(255, 255, 255, 0.226);
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #204575;
-  }
 
 /* NAVBAR STYLING BEGINS HERE */
 .navbar {
