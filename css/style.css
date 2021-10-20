@@ -50,7 +50,8 @@ html{
     font-weight: bold;
     color: #132945;
     font-size: 14px;
-    padding: 1rem;
+    /* padding: 1rem;
+    padding-top: 0; */
     opacity: 0.75;
 }
 .toggle-button {
@@ -96,9 +97,9 @@ html{
       text-align: center;
     }
   
-    .navbar-links ul li a {
+    /* .navbar-links ul li a {
       padding: 0.5rem 1rem;
-    }
+    } */
   
     .navbar-links.active {
       display: flex;
@@ -405,4 +406,28 @@ header h2{
     flex-direction: column;
     font-family: 'Source Sans Pro', sans-serif;
 }
-
+/* .h1{
+    border-radius: 10px;
+    
+}
+.h1:hover{
+    background-color: rgb(75, 74, 74);
+    color: white;
+    
+} */
+.h2{
+    height: 25px;
+    /* background-color: yellow; */
+    padding: 1rem;
+    border-radius: 13px;
+    padding-bottom: .8rem;
+}
+.h2:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.863);
+}
+@media (max-width: 800px){
+    .h2{
+        border-radius: 5;
+    }
+}
