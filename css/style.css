@@ -52,7 +52,28 @@ html{
     font-size: 14px;
     padding: 1rem;
     opacity: 0.75;
+    transition: color 100ms ease;
 }
+
+.navbar-links li a::after{
+    content: '';
+    width: 0;
+    height: 1px;
+    display: block;
+    background: black;
+    transition: 100ms;
+}
+
+.navbar-links li a:hover{
+    font-weight: bold;
+    color: #0a111c;
+    transition: color 100ms ease;
+}
+
+.navbar-links li a:hover::after{
+    width: 100%;
+}
+
 .toggle-button {
     position: absolute;
     top: 20px;
@@ -102,6 +123,10 @@ html{
   
     .navbar-links.active {
       display: flex;
+    }
+
+    .navbar-links li a:hover::after{
+        width: 0;
     }
 }
 /* NAVBAR STYLING ENDS HERE */
