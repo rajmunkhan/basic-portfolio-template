@@ -423,15 +423,24 @@ header h2 {
     
 } */
 .h2 {
-  height: 25px;
-  /* background-color: yellow; */
-  padding: 1rem;
-  border-radius: 13px;
-  padding-bottom: 0.8rem;
+    height: 25px;
+    padding: 1rem;
+    border-radius: 13px;
+    padding-bottom: .8rem;
+}
+.h2 {
+    color: #111111;
+    text-decoration: none;
+    background-color: transparent; 
 }
 .h2:hover {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.863);
+    color: rgb(153, 148, 148);
+    background-color: #ff781f;
+    text-decoration: underline;
+}
+.h2:hover {
+    color: #000000;
+    text-decoration: underline; 
 }
 @media (max-width: 800px) {
   .h2 {
