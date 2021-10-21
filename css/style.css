@@ -435,11 +435,11 @@ header h2 {
 }
 .h2:hover {
     color: rgb(153, 148, 148);
-    background-color: #ff781f;
+    background-color: #7ad7f0;
     text-decoration: underline;
 }
 .h2:hover {
-    color: #000000;
+    color: #ffffff;
     text-decoration: underline; 
 }
 @media (max-width: 800px) {
