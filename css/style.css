@@ -373,7 +373,7 @@ header h2{
     font-family: 'Source Sans Pro', sans-serif;
 }
 footer {
-    height: 30vh;
+    height: 15vh;
     background-color: white;
     font-family: 'Source Sans Pro', sans-serif;
     display: flex;
@@ -398,7 +398,7 @@ footer h2::before{
 }
 footer ul {
     display: flex;
-    width: 100%;
+    width: 40%;
     justify-content: space-evenly;
     margin: 6vh 0;
     
