@@ -458,6 +458,10 @@ header h2 {
     flex-direction: column;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+
+
+
 @media screen and (max-width: 430px) {
   body {
     overflow: hidden;
@@ -606,5 +610,72 @@ header h2 {
 @media (max-width: 800px) {
   .h2 {
     border-radius: 5;
+  }
+}
+/* experience section styling */
+.experience-section{
+  min-height: 100vh;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.experience-section h2{
+  position: relative;
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+
+.experience-section h2::before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0%;
+  height: 3%;
+  background-color: black;
+  animation: h2-bottom 1s infinite ease-in-out alternate;
+}
+
+.experience-div{
+  padding: 2rem;
+  display: flex;
+  justify-content:center; 
+  align-items: center;
+  font-family: "Source Sans Pro", sans-serif;
+}
+/* card styling */
+.experience-card{
+    width: 350px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin:1rem;
+}
+.experienceCard-header
+{
+    height: 200px;
+}
+.experienceCard-header img{
+  max-width: 100%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.experienceCard-content{
+  padding: 30px;
+  background-color: #fff;
+}
+.excperienceCard-title{
+  height: 20px;
+  margin: 0;
+  text-align: center;
+}
+/* experience section media query */
+@media screen and (max-width: 1000px){
+  .experience-div{
+    flex-direction: column;
   }
 }
