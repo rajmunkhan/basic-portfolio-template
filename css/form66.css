@@ -4,10 +4,10 @@
 
 
 .container {
-	background-color: #ffffff;
+	background-color: #031049ea;
 	border-radius: 50px;
-	box-shadow: 0 10px 25px rgb(0, 0, 0);
-	padding: 25px 25px;
+    color: #fff;
+	padding: 25px 40px;
 	width: 100%;
 	max-width: 700px;
     height: auto;
@@ -44,7 +44,7 @@
 }
 
 .form-control input {
-	border: 1px solid #ccc;
+	border: 2px solid rgb(0, 0, 0);
     padding-left: 15px;
     font-size: 16px;
     border-bottom-width: 2px;
@@ -57,7 +57,7 @@
 }
 
 .form-control input:focus {
-	border-color: rgb(0, 13, 85);
+	border-color: rgb(255, 255, 255);
     border-width: 3px;
 }
 
@@ -119,7 +119,9 @@ form .button input{
 }
 
 form .button input:hover{
-    background: linear-gradient(-135deg,#011733,#002169);
+    background: linear-gradient(-135deg,#011733,#ffffff);
+	color: #000155;
+	font-weight: 500;
 }
 
 
@@ -127,7 +129,7 @@ form .button input:hover{
 #dot-1:checked~ .category label .one,
 #dot-2:checked~ .category label .two,
 #dot-3:checked~ .category label .three{
-    border-color: #000155;
+    border-color: #000000;
     background: #0d0081;
 }
 
