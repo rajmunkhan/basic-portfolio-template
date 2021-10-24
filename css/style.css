@@ -727,3 +727,55 @@ header h2 {
         padding: 10px;
         width: 50%;
     }
+    footer {
+      height: 15vh;
+      background-color: white;
+      font-family: 'Source Sans Pro', sans-serif;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+  }
+  footer h2{
+      font-size: 50px;
+      position: relative;
+      text-align: center;
+      padding: 2vh 0;
+  }
+  footer h2::before{
+      content: "";
+      position: absolute;
+      bottom: 0;
+      width: 0%;
+      height: 3%;
+      background-color: #132945;
+      animation: h2-bottom 1s infinite ease-in-out alternate;
+  }
+  footer ul {
+      display: flex;
+      width: 40%;
+      justify-content: space-evenly;
+      margin: 6vh 0;
+      
+  }
+  footer ul li {
+      list-style-type: none;
+  }
+  footer a {
+      text-decoration: none;
+      color: black;
+      font-size: 1.7rem;
+      transition: 200ms;
+  }
+  footer i {
+      transition: 200ms;
+  }
+  footer i:hover{
+      color: #2f60a0;
+      text-shadow: 0px 0px 10px #2f60a0;
+      
+  }
+  
+  
+  
+  
