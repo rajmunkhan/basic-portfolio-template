@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/form66.css">
+    <link rel="stylesheet" href="./css/button.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/preloader.css">
     <link rel="shortcut icon" href="img/favicon.jpeg" type="image/x-icon">
@@ -94,7 +96,8 @@
               
             </div>
             <div class="details">
-              <h3>Project Name 1<br> <span><a class="clickme" href="">Link</a></span></h3>
+              <h3>Project Name 1<br> <br>
+                <a href=""><button class="btn btn1"> Link ! </button></a></h3>
             </div>
           </div>
         </div>
@@ -114,7 +117,8 @@
               
             </div>
             <div class="details">
-                <h3>Project Name 2<br> <span><a class="clickme" href="">Link</a></span></h3>
+                <h3>Project Name 2<br> <br>
+                  <a href=""><button class="btn btn1"> Link ! </button></a></h3>
             </div>
           </div>
         </div>
@@ -131,8 +135,10 @@
               <img  width="100px" src="https://images.unsplash.com/photo-1594904351111-a072f80b1a71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=735&q=80" alt="">
               
             </div>
+            
             <div class="details">
-                <h3>Project Name 3<br> <span><a class="clickme" href="">Link</a></span></h3>
+                <h3>Project Name 3<br><br>
+                   <a href=""><button class="btn btn1"> Link ! </button></a></h3>
             </div>
           </div>
         </div>
@@ -150,7 +156,8 @@
               
             </div>
             <div class="details">
-                <h3>Project Name 4<br> <span><a class="clickme" href="">Link</a></span></h3>
+                <h3>Project Name 4<br> <br>
+                  <a href=""><button class="btn btn1"> Link ! </button></a></h3>
             </div>
           </div>
         </div>
@@ -193,9 +200,12 @@
          </div>
     </div>
 </section>
+<center>
   <section id="contactme" class="contactme">
             <h2>Get In Touch</h2>
-            <div class="content">
+            </section>
+            <br>
+            <!-- <div class="content">
                 <br>
                 <input type="text" placeholder="Your Name">
                 <br>
@@ -206,8 +216,50 @@
                 <input type="text" placeholder="Your Message">
                 <br>
                 <button id="contactsubmit">Submit</button>
-	  </div>
-</section>
+	  </div> -->
+    <div class="container">
+    <form id="form" class="form" method="POST">
+      <div class="userdet">
+      <div class="form-control">
+          <label for="username" class="det">Your name</label>
+          <input type="text" placeholder="Your name" id="fullname" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+         
+      </div>
+      
+      
+      <div class="form-control">
+          <label for="username" class="det">Email</label>
+          <input type="email" placeholder="a@florin-pop.com" id="email" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+         
+      </div>
+      
+      <div class="form-control">
+        <label for="username" class="det">Subject</label>
+        <input type="text" placeholder="Subject" id="Subject" />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+      
+    </div>
+      
+
+    <div class="form-control">
+      <label for="username" class="det">Drop your Message</label>
+      <input type="text" placeholder="Drop your Message" id="DropyourMessage" />
+      <i class="fas fa-check-circle"></i>
+      <i class="fas fa-exclamation-circle"></i>
+    
+  </div>
+      
+      <div class="button">
+          <input type="submit" value="Submit">
+      </div>
+  </form>
+</center>
+</div>
 
 <div class="pre-loader">
     <div class="boxes">
@@ -238,6 +290,7 @@
     </div>
 </div>
 </body>
+<script src="./js/formjs.js"></script>
 <script src="./js/projects.js"></script>
 <script src="./js/preloader.js"></script>
 <script src="./js/navbar.js"></script>
