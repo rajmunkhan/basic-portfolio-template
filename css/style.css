@@ -342,12 +342,13 @@ header h2 {
 
 .projects{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
     background-color: #132945;
     color: white;
     padding: 2rem;
+    flex-wrap: wrap;
 
 }
 
@@ -379,9 +380,11 @@ header h2 {
 
 .testimotionals {
     width:350px;
-     display:inline-block;
-      margin-left:50px;
-      margin-top:50px;
+     display:flex;
+     flex-direction:column;
+     align-items:center;
+     justify-content:center;
+     margin: 30px;
     }
     
     
@@ -395,7 +398,11 @@ header h2 {
       padding:20px;
       box-sizing:border-box;
       text-align:center;
-      box-shadow:0 10px 40px rgba(0,0,0,.5)
+      box-shadow:0 10px 40px rgba(0,0,0,.5);
+      display:flex;
+     flex-direction:column;
+     align-items:center;
+     justify-content:center;
     }
     .testimotionals .card .layer {
       z-index:1;
@@ -406,12 +413,20 @@ header h2 {
       left:0;
       background-image: linear-gradient(to top, #082757, #0a2f6a, #0f377d, #153f90, #1e47a4);
       transition:0.5s;
+      display:flex;
+     flex-direction:column;
+     align-items:center;
+     justify-content:center;
       
     }
     
     .testimotionals .card .content {
       z-index:2; 
       position:relative;
+      display:flex;
+     flex-direction:column;
+     align-items:center;
+     justify-content:center;
     }
     
     .testimotionals .card:hover  .layer{
@@ -422,6 +437,7 @@ header h2 {
       font-size:14px;
       line-height:24px;
       color:#fff;
+      margin: 12px 0px;
       
     }
     .testimotionals .card .content .image {
@@ -437,18 +453,17 @@ header h2 {
     .testimotionals .card .content .details h3 {
     font-size:18px;
     color:white;
+    margin: 12px 0px;
     }
     .testimotionals .card .content .details h3 span {
     font-size:18px;
     color:purple;
-      transition:0.5s;
+    transition:0.5s;
     }
     .testimotionals .card:hover .content .details h3 span {
       color:white;
       position:relative
     }
-
-
 
 .education{
     padding: 2rem;
