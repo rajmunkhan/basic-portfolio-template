@@ -664,7 +664,7 @@ header h2 {
 
 .card {
   display: flex;
-  height: 500px;
+  height: 480px;
   width: 280px;
   background-color: #17141d;
   border-radius: 10px;
@@ -734,11 +734,11 @@ header h2 {
 
 .img {
   width:120px; height:120px;
-  margin:10px 30px;
   border-radius:50%;
   overflow:hidden;
   border: 4px solid white;
   box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+  margin-top:8px ;
 }
 .card:hover .img{
   width:150px; height:150px;
@@ -748,14 +748,13 @@ header h2 {
 .detail{
   text-align: center;
   font-family: Source Sans Pro, sans-serif;
-  font-size: 15px;
+  font-size: 16px;
+  width: 250px;
 }
 .card:hover .detail{
-  width: 250px;
+  width: 280px;
   font-size: 18px;
 }
-
-
     footer {
       height: 15vh;
       background-color: white;
