@@ -596,12 +596,10 @@ header h2 {
   height: 25px;
   /* background-color: yellow; */
   padding: 1rem;
-  border-radius: 13px;
   padding-bottom: 0.8rem;
 }
 .h2:hover {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.863);
+  border-bottom:2px solid blue;
 }
 @media (max-width: 800px) {
   .h2 {
